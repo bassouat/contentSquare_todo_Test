@@ -80,9 +80,7 @@ exports.addTodo =(req, res, next) => {
 /*
  * Update a todo by its identifier.
  */
-/*exports.updateTodo = function (req, res) {
-  res.json(404, { error: 'Not found' });
-};*/
+
 
 exports.updateTodo=(req,res,next)=>{
   const todoM = new TodoM({

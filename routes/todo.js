@@ -103,10 +103,7 @@ exports.updateTodo=(req,res,next)=>{
 /*
  * Delete a todo
  */
-/*exports.deleteTodo = function (req, res) {
-  res.status(204).end();
-  return;
-};*/
+
 exports.deleteTodo=(req,res,next)=>{
   TodoM.deleteOne({
     _id:req.params.id}).then(()=>{

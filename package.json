@@ -1,0 +1,20 @@
+{
+  "name": "todolist",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node todolist"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.5.3",
+    "ejs": "*",
+    "express": "3.1.0",
+    "mongoose": "^6.0.11",
+    "path": "*"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}

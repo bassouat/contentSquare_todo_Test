@@ -63,9 +63,6 @@ exports.findById=(req,res,next)=>{
 /*
  * Create a todo.
  */
-/*exports.addTodo = function (req, res) {
-  res.status(201).end();
-};*/
 
 exports.addTodo =(req, res, next) => {
 

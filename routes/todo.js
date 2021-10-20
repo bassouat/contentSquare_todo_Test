@@ -38,9 +38,7 @@ let id = 3;
 /*
  * GET todos listing.
  */
-//exports.findAll = function (req, res) {
-//  res.json(200, todos);
-//};
+
 exports.findAll = (req, res,next) => {
   TodoM.find()
       .then((todos) => res.status(200).json(todos))

@@ -49,9 +49,7 @@ exports.findAll = (req, res,next) => {
 /*
  * GET todo by identifier.
  */
-/*exports.findById = function (req, res) {
-  res.json(404, { error: 'Not found' });
-};*/
+
 exports.findById=(req,res,next)=>{
   TodoM.findById({
     _id:req.params.id
